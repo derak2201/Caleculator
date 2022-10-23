@@ -15,8 +15,10 @@ def caleculate():
             res = num1+num2
         elif opt =='sub':
             res = num1-num2
-        else:
+        elif:
             res = num1*num2
+        else:
+            res = num1//num2
         return render_template('output.html',results=res)
 
 if __name__ == '__main__':
